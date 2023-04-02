@@ -40,33 +40,33 @@ After the necessary information in the 'User Input' section is provided, the not
 To reproduce the results from the paper, please follow the notebooks execution order.
 
 1. datasets_processing.ipynb
-  - Before processing the datasets, we are making sure that there aren't overlaps between them. This help us to avoid creating biased results. 
-  - This notebook modifies the provided datasets and divides them into two categories: source and evaluation datasets
-    - The soruce datasets are used for extracting words and creating the SHAP explainable lexicon
-    - The evaluation datasets are used to evaluate the created SHAP explainable lexicons
+    - Before processing the datasets, we are making sure that there aren't overlaps between them. This help us to avoid creating biased results. 
+    - This notebook modifies the provided datasets and divides them into two categories: source and evaluation datasets
+      - The soruce datasets are used for extracting words and creating the SHAP explainable lexicon
+      - The evaluation datasets are used to evaluate the created SHAP explainable lexicons
 
 2. roberta_model_creation.ipynb
-  - This notebook requires GPU
-  - This notebook results with RoBERTa sentiment classification model and RoBERTa tokenizer
+    - This notebook requires GPU
+    - This notebook results with RoBERTa sentiment classification model and RoBERTa tokenizer
   
 3. initial_words_collecting.ipynb
-  - This notebook requires GPU
-  - Extraction words from the sentences together with their shap value
-  - While executing this notebook, the runtime might disconnect. To not lose the progress, we are saving the datasets on each 100 sentences to the provided location
-  - If the runtime disconnect, please run again the notebook with the same configuration. Repeat this process until all sentences are processed.
-  - If all sentences are processed, you will get a message informing you that
+    - This notebook requires GPU
+    - Extraction words from the sentences together with their shap value
+    - While executing this notebook, the runtime might disconnect. To not lose the progress, we are saving the datasets on each 100 sentences to the provided location
+    - If the runtime disconnect, please run again the notebook with the same configuration. Repeat this process until all sentences are processed.
+    - If all sentences are processed, you will get a message informing you that
 
 4. concatenate_result_datasets.ipynb
-  - This notebook serve to combine multiple outputs from the notebook #3
-  - If all sentences were processed in notebook #3 with one execution, then this notebook is not required
+    - This notebook serve to combine multiple outputs from the notebook #3
+    - If all sentences were processed in notebook #3 with one execution, then this notebook is not required
 
 5. post_processing_of_the_words.ipynb
-  - This notebook is used to aggregate the words, add additional features and process the extracted words and words from the LM dictionary
+    - This notebook is used to aggregate the words, add additional features and process the extracted words and words from the LM dictionary
   
 6. explainable_lexicon_development.ipynb
-  - In this notebook the SHAP-LM explainable lexicon is generated
-  - The lexicon is generated in normalized version as well
+    - In this notebook the SHAP-LM explainable lexicon is generated
+    - The lexicon is generated in normalized version as well
   
 7. model_evaluation_summary.ipynb
-  - Finally, in this notebook the SHAP-LM explainable lexicon is evaluated by using the evaluation datasets from notebook #1
-  - The results that are presented in the paper are generated using this notebook
+    - Finally, in this notebook the SHAP-LM explainable lexicon is evaluated by using the evaluation datasets from notebook #1
+    - The results that are presented in the paper are generated using this notebook
