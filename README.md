@@ -35,7 +35,9 @@ Loughran McDonald Dictionary
   
 
 # Instructions
-There are total of 7 Colab notebooks used to generate the results. In each of the notebooks, the 'User Input' section should be filled with the required information. Please follow the instructions in the notebooks. 
+There are total of 7 Colab notebooks used to generate the results. Each of the notebooks process the datasets in a specific way, which results in SHAP explainable lexicon. 
+
+In each of the notebooks, the 'User Input' section should be filled with the required information. Please follow the instructions in the notebooks. 
 After the necessary information in the 'User Input' section is provided, the notebook can be run with the 'Run All' option.
 
 To reproduce the results from the paper, please follow the notebooks execution order.
