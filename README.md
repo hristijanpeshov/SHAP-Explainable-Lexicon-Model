@@ -56,8 +56,8 @@ We are using several datasets to evaluate the proposed methodology. Access to th
 | Nasdaq (Version 2) | https://www.kaggle.com/datasets/sidarcidiacono/news-sentiment-analysis-for-stock-data-by-company |
 | Financial phrase bank (Version 5) | https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news?select=all-data.csv |
 | Sentfin (Version 3) | https://www.kaggle.com/datasets/ankurzing/aspect-based-sentiment-analysis-for-financial-news |
-| train_df | train_df combines SemEval-2017 Task 5 and Financial PhraseBank datasets and it can be downloaded by executing the roberta_model_creation.ipynb notebook |
-| dev_df | dev_df combines SemEval-2017 Task 5 and Financial PhraseBank datasets and it can be downloaded by executing the roberta_model_creation.ipynb notebook |
+| train_df | train_df combines SemEval-2017 Task 5 and Financial PhraseBank datasets and it can be downloaded by executing the [roberta_model_creation](https://github.com/hristijanpeshov/SHAP-Explainable-Lexicon-Model/blob/master/notebooks/roberta_model_creation.ipynb) notebook |
+| dev_df | dev_df combines SemEval-2017 Task 5 and Financial PhraseBank datasets and it can be downloaded by executing the [roberta_model_creation](https://github.com/hristijanpeshov/SHAP-Explainable-Lexicon-Model/blob/master/notebooks/roberta_model_creation.ipynb) notebook |
 | FIQA (train) | https://sites.google.com/view/fiqa/ |
 | Financial Phrase Bank + FIQA (Version 4) | https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis |
 | Loughran McDonald Dictionary | https://sraf.nd.edu/loughranmcdonald-master-dictionary/ |
