@@ -75,5 +75,11 @@ To reproduce the results from the paper, please follow the notebooks execution o
     - The results that SHAP-LM explainable lexicon achieves are generated using this notebook
 
 
+# Authors
+- Hristijan Peshov
+- Maryan Rizinski
+- Kostadin Mishev
+- Dimitar Trajanov
+
 # License
 Apache License 2.0
