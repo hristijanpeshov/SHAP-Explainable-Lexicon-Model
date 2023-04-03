@@ -63,10 +63,10 @@ We are using several datasets to evaluate the proposed methodology. Access to th
 | Loughran McDonald Dictionary | https://sraf.nd.edu/loughranmcdonald-master-dictionary/ |
 
 # Authors
-- Hristijan Peshov
-- Maryan Rizinski
-- Kostadin Mishev
-- Dimitar Trajanov
+- [Hristijan Peshov](https://github.com/hristijanpeshov)
+- [Maryan Rizinski](https://github.com/rizinski)
+- [Kostadin Mishev](https://github.com/kokimishev)
+- [Dimitar Trajanov](https://github.com/trajanov)
 
 # License
 Apache License 2.0
