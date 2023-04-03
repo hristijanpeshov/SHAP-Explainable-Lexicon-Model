@@ -73,3 +73,7 @@ To reproduce the results from the paper, please follow the notebooks execution o
 7. model_evaluation_summary.ipynb
     - Finally, the last notebook evaluates the SHAP-LM explainable lexicon by using the evaluation datasets from notebook #1
     - The results that SHAP-LM explainable lexicon achieves are generated using this notebook
+
+
+# License
+Apache License 2.0
