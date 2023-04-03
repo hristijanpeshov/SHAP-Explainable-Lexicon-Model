@@ -16,15 +16,15 @@ After the necessary information in the _"User Input"_ section is provided, the n
 
 To reproduce the results, please run the notebooks in the following execution order.
 
-1. datasets_processing.ipynb
+1. roberta_model_creation.ipynb
+    - This notebook requires GPU
+    - This notebook results in RoBERTa sentiment classification model and RoBERTa tokenizer
+
+2. datasets_processing.ipynb
     - Before processing the datasets, we make sure there are no overlaps between them. This help us to avoid creating biased results. 
     - This notebook modifies the provided datasets and divides them into two categories: source and evaluation datasets
       - The source datasets are utilized for extracting words and creating the SHAP explainable lexicon
       - The evaluation datasets are used to evaluate the created SHAP explainable lexicons
-
-2. roberta_model_creation.ipynb
-    - This notebook requires GPU
-    - This notebook results in RoBERTa sentiment classification model and RoBERTa tokenizer
   
 3. initial_words_collecting.ipynb
     - This notebook requires GPU
@@ -56,8 +56,8 @@ We are using several datasets to evaluate the proposed methodology. Access to th
 | Nasdaq (Version 2) | https://www.kaggle.com/datasets/sidarcidiacono/news-sentiment-analysis-for-stock-data-by-company |
 | Financial phrase bank (Version 5) | https://www.kaggle.com/datasets/ankurzing/sentiment-analysis-for-financial-news?select=all-data.csv |
 | Sentfin (Version 3) | https://www.kaggle.com/datasets/ankurzing/aspect-based-sentiment-analysis-for-financial-news |
-| train_df | https://alt.qcri.org/semeval2017/task5/index.php?id=data-and-tools |
-| dev_df | https://alt.qcri.org/semeval2017/task5/index.php?id=data-and-tools |
+| train_df | train_df combines SemEval-2017 Task 5 and Financial PhraseBank datasets and it can be downloaded by executing the roberta_model_creation.ipynb notebook |
+| dev_df | dev_df combines SemEval-2017 Task 5 and Financial PhraseBank datasets and it can be downloaded by executing the roberta_model_creation.ipynb notebook |
 | FIQA (train) | https://sites.google.com/view/fiqa/ |
 | Financial Phrase Bank + FIQA (Version 4) | https://www.kaggle.com/datasets/sbhatti/financial-sentiment-analysis |
 | Loughran McDonald Dictionary | https://sraf.nd.edu/loughranmcdonald-master-dictionary/ |
