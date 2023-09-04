@@ -8,6 +8,8 @@ We propose a novel methodology based on transformers and explainability with SHa
 # Installation
 The code is available as Jupyter notebooks. The easiest way to use the notebooks is to upload them to and run them in Google Colab. The notebooks contain imports of the necessary Python libraries. There are no dependencies and no additional modules or libraries need to be installed.
 
+The notebooks run on Python 3.10 version, as well as the latest version of 'transformers' library. However, if you encounter any problems regarding the transformer model or its tokenizer, make sure to utilize the identical version of the 'transformers' library that was employed during the initial saving of the model and tokenizer.
+
 # Usage
 There are 7 Colab notebooks used to generate the results. Each of the notebooks processes the datasets in a specific way, that contributes to the creation of a SHAP explainable lexicon. 
 
