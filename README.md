@@ -70,6 +70,9 @@ We are using several datasets to evaluate the proposed methodology. Access to th
 - [Kostadin Mishev](https://github.com/kokimishev)
 - [Dimitar Trajanov](https://github.com/trajanov)
 
+# License
+Apache License 2.0
+
 # Citation
 
 If you use this project in your research, we would appreciate a citation to the following paper:
@@ -81,6 +84,3 @@ If you use this project in your research, we would appreciate a citation to the 
   journal={arXiv preprint arXiv:2306.03997},
   year={2023}
 }
-
-# License
-Apache License 2.0
