@@ -70,5 +70,17 @@ We are using several datasets to evaluate the proposed methodology. Access to th
 - [Kostadin Mishev](https://github.com/kokimishev)
 - [Dimitar Trajanov](https://github.com/trajanov)
 
+# Citation
+
+If you use this project in your research, we would appreciate a citation to the following paper:
+
+```bibtex
+@article{rizinski2023sentiment,
+  title={Sentiment Analysis in Finance: From Transformers Back to eXplainable Lexicons (XLex)},
+  author={Rizinski, Maryan and Peshov, Hristijan and Mishev, Kostadin and Jovanovik, Milos and Trajanov, Dimitar},
+  journal={arXiv preprint arXiv:2306.03997},
+  year={2023}
+}
+
 # License
 Apache License 2.0
