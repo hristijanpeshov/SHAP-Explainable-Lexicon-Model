@@ -79,9 +79,12 @@ Apache License 2.0
 If you use this project in your research, we would appreciate a citation to the following paper:
 
 ```bibtex
-@article{rizinski2023sentiment,
+@article{rizinski2024sentiment,
   title={Sentiment Analysis in Finance: From Transformers Back to eXplainable Lexicons (XLex)},
   author={Rizinski, Maryan and Peshov, Hristijan and Mishev, Kostadin and Jovanovik, Milos and Trajanov, Dimitar},
-  journal={arXiv preprint arXiv:2306.03997},
-  year={2023}
+  journal={IEEE Access},
+  volume={12},
+  pages={7170--7198},
+  year={2024},
+  publisher={IEEE}
 }
